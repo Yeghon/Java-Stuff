@@ -46,4 +46,20 @@ public class Arrays_ {
       }
     }
   }
+
+  protected static void sort_2(int[] nums) {
+    // int temp;
+    boolean sorted = false; // control flag { 9, 0, -8, 4, 1, 7, 2 };
+    while (!sorted) {
+      sorted = true;
+      for (int i = 0; i < nums.length - 1; i++) {
+        if (nums[i + 1] < nums[i]) { // 9, 0 swap the next value if less than current value
+          int temp = nums[i]; // 9
+          nums[i] = nums[i + 1]; // 0
+          nums[i + 1] = temp;
+          sorted = false;
+        }
+      }
+    }
+  }
 }
