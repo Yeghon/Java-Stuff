@@ -5,23 +5,10 @@ public class CodilityChallengeMS {
   public static void main(String[] args) {
     System.out.println("====== Begin execution =====");
     /**
-     * Operations it takes to reduce to 0
-     */
-    // String s_ = "111";
-    // System.out.println("It will take " + operations(s_) + " operations to get to
-    // 0");
-
-    /**
-     * Get stable periods
-     */
-    // int[] periods = { -1, 1, 3, 3, 3, 2, 3, 2, 1, 0 };
-    // System.out.println(" Stable periods " + stablePeriods(periods));
-
-    /**
      * Minimum deletions
      *
      */
-    System.out.println("Deletions: " + minimumDeletions("aaaabbbb"));
+    System.out.println("Deletions: " + minimumDeletions("aaaabbbbc"));
     System.out.println("===== End of program ======");
   }
 

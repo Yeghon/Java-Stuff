@@ -29,7 +29,7 @@ public class Queue_<T> extends AbstractQueue<T> {
     T t = iter.next();
     // if not null, remove it then return it else null
     assert null != t;
-    iter.remove();akuh20304wW.
+    iter.remove();
     return null != t ? t : null;
   }
 
